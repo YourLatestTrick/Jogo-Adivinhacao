@@ -33,9 +33,9 @@ public class JogoAdivinhacao {
                 acertou = true;
                 break;
             } else if (chute < numero) {
-                System.out.println("Mais alto...");
+                System.out.println("O número é mais alto");
             } else {
-                System.out.println("Mais baixo...");
+                System.out.println("O número é mais baixo");
             }
         }
 
